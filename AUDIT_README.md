@@ -13,21 +13,23 @@ This repository contains the work performed to identify and fix deprecated Mojo 
 1. **PR #193** - Fix LayoutTensor Builder Syntax
    - Fixed 5 documentation files using deprecated `tb[dtype]().row_major[SIZE]().shared().alloc()` syntax
    - Updated to modern `LayoutTensor[...].stack_allocation()` pattern
-   - Status: Submitted
+   - Status: ✅ Merged
    - https://github.com/modular/mojo-gpu-puzzles/pull/193
 
-2. **GPU Import Path Fixes** (Branch: `fix/update-gpu-import-paths`)
+2. **PR #194** - GPU Import Path Fixes
    - Fixed 18 instances of deprecated GPU imports across 13 files
    - `gpu.warp` → `gpu.primitives.warp` (16 instances)
    - `gpu.cluster` → `gpu` (2 instances)
    - Affects puzzles 24, 25, 26, 27, 34
-   - Status: Ready for PR submission
+   - Status: 🔄 Under Review
+   - https://github.com/modular/mojo-gpu-puzzles/pull/194
 
-3. **Deprecation Scanner Tool** (Branch: `feature/add-deprecation-scanner`)
+3. **PR #195** - Deprecation Scanner Tool
    - TOML-driven scanner with 21+ deprecation patterns
    - Python script with uv support
    - Complete documentation and usage examples
-   - Status: Ready for PR submission (optional tool contribution)
+   - Status: 🔄 Under Review (optional tool contribution)
+   - https://github.com/modular/mojo-gpu-puzzles/pull/195
 
 ## Repository Structure
 
