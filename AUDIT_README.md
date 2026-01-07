@@ -68,8 +68,8 @@ uv run tools/deprecation-scanner/scan_deprecations.py
 | Pattern | Category | Instances Found | Severity | Fixed In |
 |---------|----------|-----------------|----------|----------|
 | LayoutTensor builder syntax | layout | 5 | High | PR #193 |
-| gpu.warp imports | gpu_imports | 16 | Medium | GPU Import PR |
-| gpu.cluster imports | gpu_imports | 2 | Medium | GPU Import PR |
+| gpu.warp imports | gpu_imports | 16 | Medium | PR #194 |
+| gpu.cluster imports | gpu_imports | 2 | Medium | PR #194 |
 | **Total** | - | **23** | - | - |
 
 ### Patterns Covered in Scanner
