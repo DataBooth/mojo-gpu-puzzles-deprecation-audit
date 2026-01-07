@@ -36,8 +36,8 @@ This repository contains the work performed to identify and fix deprecated Mojo 
 ### Branches
 
 - `fix/update-deprecated-layouttensor-syntax` - LayoutTensor fixes (PR #193)
-- `fix/update-gpu-import-paths` - GPU import path fixes
-- `feature/add-deprecation-scanner` - Scanner tool contribution
+- `fix/update-gpu-import-paths` - GPU import path fixes (PR #194)
+- `feature/add-deprecation-scanner` - Scanner tool contribution (PR #195)
 
 ### Scanner Tool
 
